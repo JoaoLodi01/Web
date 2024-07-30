@@ -1,0 +1,51 @@
+*{margin: 0;
+  padding: 0;
+}
+header{
+	flex: auto;
+}
+
+#openMenu{
+	border: none;
+	color: white;
+	background:none;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+	cursor: pointer;
+}
+main{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+nav{
+    padding: 5px;
+    background-color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+nav .links{
+    text-align: center;
+    margin-top: -20px;
+    padding: 0 0 10px 0 ;
+}
+
+nav a:hover{
+    color: rgba(57, 146, 248, 0.89);
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
